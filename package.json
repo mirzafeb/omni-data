@@ -1,0 +1,19 @@
+{
+  "name": "omni-test",
+  "version": "0.0.1",
+  "description": "Omnilytics interview",
+  "main": "./omniw/program.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node ./omniw/program.js",
+    "reader": "node ./omnir/program.js"
+  },
+  "author": "mirza",
+  "license": "ISC",
+  "dependencies": {
+    "bytes": "^2.4.0",
+    "lodash": "^4.16.2",
+    "random-js": "^1.0.8",
+    "randomstring": "^1.1.5"
+  }
+}
